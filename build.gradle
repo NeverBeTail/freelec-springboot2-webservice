@@ -9,7 +9,7 @@ jar {
 }
 
 group = 'com.study'
-version = '1.0.1-SNAPSHOT'
+version = '1.0.1-SNAPSHOT-'+ new Date().format("yyyyMMHHmmss")
 sourceCompatibility = '1.8'
 
 configurations {
